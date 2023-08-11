@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registartion Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1> Jitu Community Club Registration Form</h1>
+        <form method="post" class="form" id="signupForm">
+            <label for="fullname">Full name</label>
+            <input type="text" name="firtsname" id="fullname" placeholder="Enter your full Name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Jitu Email">
+            <br>
+            <label for="cohortnumber">Cohort Number</label>
+            <input type="number" name="cohortnumber" id="cohortnumber" placeholder="Enter your Cohort Number...">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"placeholder=" Enter your password">
+            <br>
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" name="confirm_password" id="confirm_password" placeholder="Re-enter your Password">
+            <br>
+            <!-- where to show error message -->
+            <div id="message" class="message"></div>
+            <button type="submit" id="signupBtn">Register Account</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
