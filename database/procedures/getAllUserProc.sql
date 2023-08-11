@@ -1,4 +1,4 @@
-USE ThejituProjectManagementDatabase;
+USE TheJituCommunityDatabase;
 GO
 
 CREATE PROCEDURE fetchAllUsers

@@ -1,4 +1,4 @@
-USE ThejituProjectManagementDatabase;
+USE TheJituCommunityDatabase;
 GO
 
 CREATE OR ALTER PROCEDURE fetchUserByEmailPROC(@email VARCHAR(255))
@@ -8,4 +8,3 @@ BEGIN
 END
 GO
 
-EXEC fetchUserByEmailPROC 'devop047@gmail.com'
